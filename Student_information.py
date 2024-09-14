@@ -216,11 +216,8 @@ def open_about():
     about.geometry("800x300")
     about.config(bg='yellow')
     about.title("About")
-    l=Label(about,text='''Developers P.KARPAGALAKSMI & S.R.DHANASHREE
-    
-    - this is developed using Python tkinter module...
-    
-    We are collecting students details for our project..''',font=('cambria 18'))
+    l=Label(about,text='''This is developed using Python tkinter module and
+I used SQLite for Database.''',font=('cambria 18'))
     l.place(x=70,y=40,width=650,height=180) 
     okbtn = Button(about,text='OK',bd='6',command=about.destroy)
     okbtn.place(x=370,y=250,width=60,height=35)
